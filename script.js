@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
         output.value = imt.toFixed(2)
     })
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register(sw.js)
+        navigator.serviceWorker.register('sw.js')
             .then(registration => {
                 console.log('SW registered', registration)
             })
