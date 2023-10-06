@@ -1,0 +1,54 @@
+@font-face {
+    font-family: pixeloid;
+    src: url(fonts/ofont.ru_Pixeloid\ Sans.ttf);
+}
+
+
+body{
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: pixeloid;
+    max-width: 576px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.input label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input button{
+    font-family: pixeloid;
+    font-size: 2rem;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.input{
+    margin-bottom: 20px;
+}
